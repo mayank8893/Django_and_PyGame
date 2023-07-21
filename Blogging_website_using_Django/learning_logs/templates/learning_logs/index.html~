@@ -1,0 +1,5 @@
+{% extends "learning_logs/base.html" %}
+
+{% block content %}
+  <p>Write and save your own blogs.</p>
+{% endblock content %}
