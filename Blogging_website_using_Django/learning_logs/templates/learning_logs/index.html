@@ -1,0 +1,16 @@
+{% extends "learning_logs/base.html" %}
+
+{% block header %}
+    <div class='jumbotron'>
+       <h1>Write your own blogs.</h1>
+    </div>
+{% endblock header %}
+
+{% block content %}
+    <h2>
+      <a href="{% url 'users:register' %}">Register an account</a> to write your own blogs.
+    </h2>
+    <h2>
+       Whenever you want to write something about a new topic, make an entry.
+     </h2>    
+{% endblock content %}
